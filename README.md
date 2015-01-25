@@ -1,4 +1,4 @@
-Scribe [![Build Status](https://travis-ci.org/guardian/scribe.svg?branch=master)](https://travis-ci.org/guardian/scribe)
+Scribe [![Build Status](https://travis-ci.org/scribe-editor/scribe.svg?branch=master)](https://travis-ci.org/scribe-editor/scribe)
 ======
 
 A rich text editor framework for the web platform, with patches for
@@ -11,9 +11,15 @@ its plugins. We plan to improve this, however in the meantime we encourage
 you to look at the code. Scribe is very small in comparison to other libraries
 of its kind.
 
-You can join us on IRC at [#scribejs] on freenode, or via the [Google Group](https://groups.google.com/forum/#!forum/scribe-editor).
-
 [See an example][example].
+
+## Community fork: reasons and intentions
+
+This is a fork of the Guardian version of the Scribe editor. This version is intended to serve the following purposes:
+
+* Accept patches and functionality for browsers we don't support at the Guardian
+* Provide a separate organisation that external committers can contribute to
+* Limit functionality as much as possible to simply being a shim over contenteditable
 
 ## Core
 
