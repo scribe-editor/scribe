@@ -17,7 +17,6 @@ env:
   matrix:
     - BROWSER_NAME='firefox' BROWSER_VERSION='33' PLATFORM='Windows 7'
     - BROWSER_NAME='chrome' BROWSER_VERSION='33' PLATFORM='Windows 7'
-    - BROWSER_NAME='iehta' BROWSER_VERSION='10' PLATFORM='Windows 7'
     - BROWSER_NAME='chrome' BROWSER_VERSION='39' PLATFORM='OS X 10.9'
 
   global:
